@@ -10,6 +10,7 @@ class ContactFormController extends BaseFormController
     protected function getSanitizableAttributes() : array
     {
         return [
+            'select' => TextSanitizer::class,
             'firstname' => TextSanitizer::class,
             'name' => TextSanitizer::class,
             'mail' => EmailSanitizer::class,
@@ -22,6 +23,7 @@ class ContactFormController extends BaseFormController
     protected function getValidatableAttributes() : array
     {
         return [
+            'select' => [RequiredValidator::class],
             'firstname' => [RequiredValidator::class],
             'name' => [RequiredValidator::class],
             'mail' => [RequiredValidator::class, EmailValidator::class],

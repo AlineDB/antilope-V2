@@ -23,7 +23,7 @@ Vous trouverez le moodboard de la nouvelle version [ici](https://github.com/Alin
 
 Vous trouverez le wireframe [ici](https://github.com/AlineDB/antilope-V2/blob/main/Doc/moodboard%20antilope%202e%20session.xd)
 
-Vous trouverez le design ici
+Vous trouverez le design [ici](https://github.com/AlineDB/antilope-V2/blob/main/Doc/design%20antilope%202e%20session.xd)
 
 Voici le [le lien du nouveau site](https://breathe-antilope.aline-db.be)
 

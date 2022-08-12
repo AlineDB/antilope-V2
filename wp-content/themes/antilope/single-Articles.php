@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
 
-	<main class="layout singleArticle">
+	<main class="layout__singleArticle">
 		<h2 class="singleArticle__title"><?= get_the_title(); ?></h2>
 		<figure class="singleArticle__fig">
 			<?= get_the_post_thumbnail(null, 'thumbnail', ['class' => 'singleDispositif__thumb']); ?>

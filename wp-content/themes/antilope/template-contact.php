@@ -1,7 +1,7 @@
 <?php /* Template Name: Contact page template */ ?>
 <?php get_header(); ?>
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
-    <main class="layou__contact">
+    <main class="layout__contact">
 
         <h2 class="contact__title"><?= get_the_title(); ?></h2>
         <div class="contact__content">
@@ -13,24 +13,31 @@
                     <p><?= __('Oups ! Il y a des erreurs dans le formulaire', 'Aline-db-antilope'); ?></p>
                 <?php endif; ?>
                 <div class="form__field">
+                    <label for="select" class="form__label"><?= __('Qui souhaitez-vous joindre', 'Aline-db-antilope'); ?> ?</label>
+                    <select name="select" id="select" class="form__select">
+                        <option>ISSEP</option>
+                        <option>HEPL</option>
+                        <option>Service électronique</option>
+                </div>
+                <div class="form__field">
                     <label for="firstname" class="form__label"><?= __('Votre prénom', 'Aline-db-antilope'); ?> :</label>
-                    <input type="text" name="firstname" id="firstname" class="form__input">
+                    <input type="text" name="firstname" id="firstname" class="form__input" placeholder="<?= __('Votre prénom', 'Aline-db-antilope'); ?>">
                 </div>
                 <div class="form__field">
                     <label for="name" class="form__label"><?= __('Votre Nom', 'Aline-db-antilope'); ?> :</label>
-                    <input type="text" name="name" id="name" class="form__input">
+                    <input type="text" name="name" id="name" class="form__input" placeholder="<?= __('Votre nom', 'Aline-db-antilope'); ?>">
                 </div>
                 <div class="form__field">
                     <label for="phone" class="form__label"><?= __('Votre téléphone', 'Aline-db-antilope'); ?> :</label>
-                    <input type="tel" name="phone" id="phone" class="form__input">
+                    <input type="tel" name="phone" id="phone" class="form__input" placeholder="<?= __('Votre téléphone', 'Aline-db-antilope'); ?>">
                 </div>
                 <div class="form__field">
                     <label for="mail" class="form__label"><?= __('Votre email', 'Aline-db-antilope'); ?> :</label>
-                    <input type="email" name="mail" id="mail" class="form__input">
+                    <input type="email" name="mail" id="mail" class="form__input" placeholder="<?= __('Votre mail', 'Aline-db-antilope'); ?>">
                 </div>
                 <div class="form__field">
                     <label for="message" class="form__label"><?= __('Votre message', 'Aline-db-antilope'); ?> :</label>
-                    <textarea type="message" name="message" cols="30" rows="10" id="message" class="form__input">
+                    <textarea type="message" name="message" cols="30" rows="10" id="message" class="form__input" placeholder="<?= __('Votre message', 'Aline-db-antilope'); ?>">
                     </textarea>
                 </div>
                 <div class="form__field">
