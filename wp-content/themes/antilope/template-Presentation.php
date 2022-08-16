@@ -44,10 +44,10 @@
         <h2 class="how__title"><?= __('Comment', 'Aline-db-antilope'); ?> ?</h2>
         <div class="how__content">
             <div class="how__video">
-                <video></video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Nl36pDofK0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="how__video">
-                <video></video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6EWfUtCDh24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
     </section>
 
@@ -58,7 +58,7 @@
             <figure class="who__fig">
                 <figcaption class="who__legend">L'<abbr title="Institut Scientifique du Service Public">ISSEP</abbr> est une unité d'Aministration Publique qui surveille l'environnement,
                     prévient les risques et nuisances, effectue des recherches scientifique et Laboratoire de Référene pour la Wallonie.</figcaption>
-                <img itemprop="image" src="<?php echo get_template_directory_uri().'/img/logo_ISSEP.jpg'; ?>"
+                <img itemprop="image" src="<?php echo get_template_directory_uri().'/img/logo_ISSEP.png'; ?>"
                      srcset="<?php echo get_template_directory_uri().'/img/logo_ISSEP@0.5x.png 767px'; ?>,
                         <?php echo get_template_directory_uri().'/img/logo_ISSEP@1.5x.png 1024px'; ?>"
                      alt="Logo de l'ISSEP">
@@ -70,7 +70,7 @@
         <div class="who__partner">
             <figure class="who__fig">
                 <figcaption class="who__legend" >Le service électronique de la <abbr title="Haute Ecole de la Province de Liège">HEPL</abbr></figcaption>
-                <img itemprop="image" src="<?php echo get_template_directory_uri().'/img/logo_electro.png'; ?>"
+                <img itemprop="image" width="180" height="130" src="<?php echo get_template_directory_uri().'/img/logo_electro.png'; ?>"
                      srcset="<?php echo get_template_directory_uri().'/img/logo_electro-150x150.jpg 767px'; ?>,
                         <?php echo get_template_directory_uri().'/img/logo_electro-300x300.jpg 1024px'; ?>"
                      alt="Logo du service électronique de la HEPL">

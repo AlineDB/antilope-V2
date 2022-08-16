@@ -12,15 +12,20 @@
     <meta name="author" content="DE BARROS Aline">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content=" HEPL, ISSEP, pollution, mesures, appareils, antilope, ingénieurs, écoles, électronique, dispositifs, modules, qualité, air, campagne, mobile, fixe">
-    <link rel=«preconnect» href=«https://fonts.googleapis.com>
-    <link rel=«preconnect» href=«https://fonts.gstatic.com» crossorigin>
-    <link href=«https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap» rel=«stylesheet»>
+    <meta name="keywords" content="HEPL, ISSEP, pollution, mesures, appareils, antilope, ingénieurs, écoles, électronique, dispositifs, modules, qualité, air, campagne, mobile, fixe">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
 </head>
 <header class="header">
     <h1 class="header__title" lang="en-GB"><?= get_bloginfo('name'); ?></h1>
     <p class="header__tagline"><?= get_bloginfo('description'); ?></p>
-
+    <figure>
+        <img class="header__logo" src="<?php echo get_template_directory_uri().'/img/logo-breatheantilope.png'; ?>" alt="Logo Breathe Antilope" width="150" height="150">
+    </figure>
 
     <nav class="header__nav">
             <h2 class="nav__title"><?= __('Navigation principale', 'Aline-db-antilope'); ?></h2>
@@ -43,12 +48,9 @@
         <div class="search__container">
             <?= get_search_form() ;?>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#61B5C0" class="bi bi-search" viewBox="0 0 16 16">
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-        </svg>
     </form>
     <div id="FixedNav" class="cInvisible">
-        <a  href="#">
+        <a  href="#" title="Retournez en haut">
             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#61B5C0" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
             </svg>

@@ -1,0 +1,24 @@
+.nav__link, .nav__locale, h2, h3, h4, .footer__link{
+    font-family: 'Lora', serif;
+}
+html{
+    font-family: 'Playfair Display', serif;
+}
+
+.nav__title, .footer__title, .header__title{
+    display: none;
+}
+
+.dispositif__link, .about__link, .articlesPage__link, .dispositif__linkPage, .form__button, .who__link, .article__link, .singleDispositif__link{
+    border-bottom: 2px #61B5C0 solid;
+    background-color: #61B5C0;
+    padding: 25px 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.dispositif__link:hover, .about__link:hover, .articlesPage__link:hover, .dispositif__linkPage:hover, .form__button:hover, .who__link:hover, .article__link:hover, .singleDispositif__link:hover{
+ color: #61B5C0;
+    background-color: #FFFFFF;
+    border: 2px #61B5C0 solid;
+}
