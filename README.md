@@ -19,11 +19,11 @@ mieux exploité l'espace et les images.
 
 ## Version 2
 
-Vous trouverez le moodboard de la nouvelle version [ici](https://github.com/AlineDB/antilope-V2/blob/main/Doc/moodboard%20antilope%202e%20session.xd)
+Vous trouverez le moodboard de la nouvelle version sous le nom [moodboard antilope 2session](https://github.com/AlineDB/antilope-V2/tree/main/Doc)
 
-Vous trouverez le wireframe [ici](https://github.com/AlineDB/antilope-V2/blob/main/Doc/moodboard%20antilope%202e%20session.xd)
+Vous trouverez le wireframe sous le nom [antilope V2](https://github.com/AlineDB/antilope-V2/tree/main/Doc)
 
-Vous trouverez le design [ici](https://github.com/AlineDB/antilope-V2/blob/main/Doc/design%20antilope%202e%20session.xd)
+Vous trouverez le design [design antilope 2e session](https://github.com/AlineDB/antilope-V2/tree/main/Doc)
 
 Voici le [le lien du nouveau site](https://breathe-antilope.aline-db.be)
 
