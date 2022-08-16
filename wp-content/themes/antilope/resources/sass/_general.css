@@ -3,6 +3,8 @@
 }
 html{
     font-family: 'Playfair Display', serif;
+    line-height: 28px;
+    background-color: #F0F8FB;
 }
 
 .nav__title, .footer__title, .header__title{

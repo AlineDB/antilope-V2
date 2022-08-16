@@ -1,9 +1,14 @@
 
-.nav__link, h2, .nav__languages{
+.nav__link, .nav__languages{
     font-size: 1.75em; /*28/16*/
     font-weight: bold;
     margin-bottom: 1.7857142857em; /*50/28*/
     margin-top: 2.142857142857143em; /*60/28*/
+}
+
+h2{
+    font-size: 1.75em; /*28/16*/
+    font-weight: bold;
 }
 
 .cInvisible{

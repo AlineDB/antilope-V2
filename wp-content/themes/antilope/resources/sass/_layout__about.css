@@ -1,0 +1,105 @@
+/*Permanent*/
+
+.about__img{
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-bottom-right-radius: 60px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-bottomright: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 1em;
+}
+.about__fig{
+    background-color : hsla(187,43%,57%,0.35);
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-bottom-right-radius: 60px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-bottomright: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    text-align: center;
+    max-width: 320px;
+}
+
+
+/*Ecran sous 767px*/
+@media screen and (max-width: 767px){
+    .layout__about{
+        margin-top: 3.75em; /*60/16*/
+        margin-bottom: 3.125em; /*50/16*/
+        margin-left: 1em;
+    }
+    .about__title{
+        margin-bottom: 1.7857142857em; /*50/28*/
+        margin-top: 2.142857142857143em; /*60/28*/
+    }
+    .about__container{
+        margin-top: 3.75em; /*60/16*/
+        margin-bottom: 3.125em; /*50/16*/
+    }
+    .about__description{
+        margin-bottom: 4.0625em; /*65/16*/
+        line-height: 28px;
+    }
+}
+
+/*Ecran à partir de 768px jusqu'à 1500px*/
+@media screen and (min-width: 768px) and (max-width: 1499px){
+    .layout__about{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 8.5em; /*136/16*/
+        margin-top: 3.75em; /*60/16*/
+        margin-bottom: 3.125em; /*50/16*/
+    }
+    .about__fig{
+        grid-column: 1;
+        grid-row: 1/4;
+        justify-self: end;
+        margin-left: 1em;
+    }
+    .about__title{
+        grid-column: 2;
+    }
+    .about__container{
+
+        grid-row: 2/4;
+    }
+    .about__description{
+        margin-bottom: 4.0625em; /*65/16*/
+        max-width: 700px;
+        line-height: 28px;
+    }
+}
+
+
+/*Ecran à partir de 1500px (pc)*/
+@media screen and (min-width:1500px){
+    .layout__about{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 8.5em; /*136/16*/
+        margin-top: 3.75em; /*60/16*/
+        margin-bottom: 3.125em; /*50/16*/
+    }
+    .about__fig{
+        grid-column: 1;
+        grid-row: 1/4;
+        justify-self: end;
+    }
+    .about__title{
+        grid-column: 2;
+    }
+    .about__container{
+
+        grid-row: 2/4;
+    }
+    .about__description{
+        margin-bottom: 4.0625em; /*65/16*/
+        max-width: 700px;
+        line-height: 28px;
+    }
+}
+
