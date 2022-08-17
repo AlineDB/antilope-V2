@@ -2,7 +2,7 @@
 /*Permanent*/
 
 .footer{
-    background-color : hsla(187,43%,57%,0.35);
+    background-color : hsla(194,100%,33%,0.4);
     -webkit-border-top-left-radius: 60px;
     -webkit-border-bottom-right-radius: 60px;
     -moz-border-radius-topleft: 60px;
@@ -14,13 +14,13 @@
 /*Nav - links */
 
 .footer__link{
-    border-bottom: 2px #61B5C0 solid;
+    border-bottom: 2px #0081A7 solid;
     padding: 0.357142857142857em; /*10/28*/
     display: inline-block;
 }
 
 .footer__link:hover{
-    color: #61B5C0;
+    color: #0081A7;
     border-bottom: 2px #FFFFFF solid;
 }
 

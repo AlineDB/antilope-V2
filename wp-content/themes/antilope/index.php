@@ -10,7 +10,7 @@
         </figure>
         <div class="about__container">
             <p class="about__description">Antilope est un dispositif de mesure créé à la demande de l'<abbr title="Institut Scientifique du Service Public">ISSEP</abbr> par des étudiants ingénieurs de la <abbr title="Haute Ecole de la Province de Liège">HEPL</abbr> et son service électronique. Leur but étant de mesurer la qualité de l'air à l'aide de différents modules en Wallonie.</p>
-            <a href="<?= get_home_url(); ?>/presentation/" class="about__link"><?= __('Lire la présentation', 'Aline-db-antilope'); ?></a>
+            <a title="<?= __('Lire la présentation', 'Aline-db-antilope'); ?>" href="<?= get_home_url(); ?>/presentation/" class="about__link"><?= __('Lire la présentation', 'Aline-db-antilope'); ?></a>
         </div>
     </section>
     <section class="layout__dispositifs">
@@ -26,7 +26,7 @@
                         <figure class="dispositif__fig">
                             <?= get_the_post_thumbnail(null, 'post-thumbnail', ['class' => 'dispositifs__thumb']); ?>
                         </figure>
-                        <a href="<?= get_the_permalink(); ?>" class="dispositif__link accueil"><?= get_the_title(); ?></a>
+                        <a title="Voir la page du module <?= get_the_title(); ?>" href="<?= get_the_permalink(); ?>" class="dispositif__link accueil"><?= get_the_title(); ?></a>
                     </div>
                 </article>
             <?php endwhile; else: ?>

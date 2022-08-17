@@ -23,13 +23,13 @@
         </div>
         <ul class="footer__menu">
             <li class="footer__link">
-                <a href="<?php echo get_home_url(). '/politique-de-confidentialite/'; ?>">  <?= __('Mentions légales', 'Aline-db-antilope'); ?></a>
+                <a title="Aller à la page des mentions légales" href="<?php echo get_home_url(). '/politique-de-confidentialite/'; ?>">  <?= __('Mentions légales', 'Aline-db-antilope'); ?></a>
             </li>
             <li class="footer__create">
                 <p>Site développé par Aline DE BARROS @2022</p>
             </li>
             <li class="footer__link">
-                <a href="<?php echo get_home_url(). '/contact/' ;?>">Contact</a>
+                <a title="Aller à la page contact" href="<?php echo get_home_url(). '/contact/' ;?>">Contact</a>
             </li>
         </ul>
     </div>

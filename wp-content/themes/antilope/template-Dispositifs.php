@@ -13,7 +13,7 @@
 					<figure class="dispositifPage__fig">
                         <?= get_the_post_thumbnail(null, 'post-thumbnail', ['class' => 'dispositifs__thumb']); ?>
 					</figure>
-                    <a href="<?= get_the_permalink(); ?>" class="dispositif__linkPage"><?= __('Voir le projet', 'Aline-db-antilope'); ?> <?= get_the_title(); ?> en détails</a>
+                    <a title="Voir le module <?= get_the_title(); ?>" href="<?= get_the_permalink(); ?>" class="dispositif__linkPage"><?= __('Voir le projet', 'Aline-db-antilope'); ?> <?= get_the_title(); ?></a>
 				</div>
 			</article>
 		<?php endwhile; else: ?>

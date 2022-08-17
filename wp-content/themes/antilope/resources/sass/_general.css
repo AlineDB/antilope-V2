@@ -12,15 +12,16 @@ html{
 }
 
 .dispositif__link, .about__link, .articlesPage__link, .dispositif__linkPage, .form__button, .who__link, .article__link, .singleDispositif__link{
-    border-bottom: 2px #61B5C0 solid;
-    background-color: #61B5C0;
+    border: 2px #007da3 solid;
+    background-color: #007da3;
     padding: 25px 50px;
     color: white;
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.125em; /*18/16*/
 }
 
 .dispositif__link:hover, .about__link:hover, .articlesPage__link:hover, .dispositif__linkPage:hover, .form__button:hover, .who__link:hover, .article__link:hover, .singleDispositif__link:hover{
- color: #61B5C0;
+    color: #007da3;
     background-color: #FFFFFF;
-    border: 2px #61B5C0 solid;
 }

@@ -6,12 +6,12 @@ Je les aient présenté en juin 2022 une première fois et après améliorations
 
 ## Version 1
 
-Vous trouverez [ici](https://github.com/AlineDB/projet_Antilope) de la première version avec la documentation s'y référant: moodboard, code, recherches, wireframe ...
+Vous trouverez [ici](https://github.com/AlineDB/projet_Antilope) le GITHUB la première version avec la documentation s'y référant: moodboard, code, recherches, wireframe ...
 
 Le site est consultable [à cette adresse](https://antilope.aline-db.be/fr/)
 
 Les retours étaient principalement sur le design non abouti, l'ambiance trop alarmante, le défilement horizontal pas top pour les modules,
-grille et espacement à revoir et la typo ne s'accordait pas.
+grille et espacement à revoir et les typo qui ne s'accordait pas.
 
 Le client a effectué un retour également: les logos en footer doivent être retravaillés, défilement pas intuitif (horizontal), images des dispositifs
 intérieurs non affichés, Formulaire doit être envoyés à plusieurs personnes (2 mini), mieux présenter les partenaires, améliorer la trad en anglais (tout n'était pas fait),

@@ -33,19 +33,21 @@
             </div>
             <div class="singleDispositif__price">
                 <h3 class="singleDispositif__subtitle"><?= get_field('prix',false, false) ?></h3>
-                <a href="<?php echo get_home_url(). '/contact/' ;?>" class="singleDispositif__link"><?= __('Intéressé ? Contactez-nous!', 'Aline-db-antilope'); ?></a>
+                <a title="Aller à la page contact" href="<?php echo get_home_url(). '/contact/' ;?>" class="singleDispositif__link"><?= __('Intéressé ? Contactez-nous!', 'Aline-db-antilope'); ?></a>
             </div>
         </div>
-        <aside class="singleDispositif__aside">
-		        <?php if(get_field('type')):  ?>
-                    <h3 class="aside__title"><?= __('Catégorie(s)', 'Aline-db-antilope'); ?></h3>
+
+        <!--<aside class="singleDispositif__aside">
+		        <?php /*if(get_field('type')):  */?>
+                    <h3 class="aside__title"><?/*= __('Catégorie(s)', 'Aline-db-antilope'); */?></h3>
                         <ul class="aside__categoryList">
-	                        <?php foreach (get_field('type', false, false) as $id_category): ?>
-                                <li class="aside__li"><?php echo(get_cat_name($id_category)); ?></li>
-	                        <?php endforeach;?>
+	                        <?php /*foreach (get_field('type', false, false) as $id_category): */?>
+                                <li class="aside__li"><?php /*echo(get_cat_name($id_category)); */?></li>
+	                        <?php /*endforeach;*/?>
                         </ul>
-		        <?php endif; ?>
-        </aside>
+		        <?php /*endif; */?>
+        </aside>-->
+
     </main>
 <?php endwhile; endif; ?>
 </body>
