@@ -134,6 +134,7 @@ function dw_get_menu_items($location){
 	return $items;
 }
 
+
 //gérer l'envoi de formulaire personnalisé
 
 add_action('admin_post_submit_contact_form', 'dw_handle_submit_contact_form');
@@ -142,8 +143,6 @@ function dw_handle_submit_contact_form(){
 	// Instancier le controlleur du form
 	$form = new ContactFormController($_POST);
 }
-
-
 
 
 

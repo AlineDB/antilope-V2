@@ -10,10 +10,10 @@
                 <a title="Lien vers le site de l'ISSEP" target="_blank" href="https://www.issep.be/"><img src="<?php echo get_template_directory_uri().'/img/logo_ISSEP.png'; ?>" alt="Logo de l'ISSEP" width="130" height="150"></a>
             </li>
             <li class="footer__li">
-                <a title="Lien vers le site des ingénieurs orientations électronique de la HEPL" href="https://www.ingehepl.be/master-en-sciences-de-lingenieur-industriel-orientation-electronique-systemes-embarques/" target="_blank"><img src="<?php echo get_template_directory_uri().'/img/logo_electro.png'; ?>" alt="Logo du service électronique de la HEPL" width="180" height="150"></a>
+                <a title="Lien vers le site des ingénieurs orientations électronique de la HEPL" href="https://www.ingehepl.be/master-en-sciences-de-lingenieur-industriel-orientation-electronique-systemes-embarques/" target="_blank"><img src="<?php echo get_template_directory_uri().'/img/logo_electro.png'; ?>" alt="Logo du service électronique de la HEPL" width="130" height="auto"></a>
             </li>
             <li class="footer__li">
-                <a title="Lien vers le site de la HEPL" target="_blank" href="https://www.hepl.be/fr/formations"><img src="<?php echo get_template_directory_uri().'/img/Logo_HEPL.png'; ?>" alt="Logo de la HEPL" width="180" height="150"></a>
+                <a title="Lien vers le site de la HEPL" target="_blank" href="https://www.hepl.be/fr/formations"><img src="<?php echo get_template_directory_uri().'/img/Logo_HEPL.png'; ?>" alt="Logo de la HEPL" width="130" height="auto"></a>
             </li>
         </ul>
         <div class="footer__img">

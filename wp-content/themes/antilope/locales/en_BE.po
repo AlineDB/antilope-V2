@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Antilope\n"
-"POT-Creation-Date: 2022-05-06 20:31+0200\n"
-"PO-Revision-Date: 2022-05-29 14:16+0200\n"
+"POT-Creation-Date: 2022-08-17 15:04+0200\n"
+"PO-Revision-Date: 2022-08-17 15:10+0200\n"
 "Last-Translator: \n"
 "Language-Team: alinedebarros@hotmail.fr\n"
 "Language: en_BE\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;__e\n"
@@ -20,146 +20,179 @@ msgstr ""
 msgid "Pied de page"
 msgstr "Footer"
 
-#: footer.php:21
+#: footer.php:26
 msgid "Mentions légales"
 msgstr "Legal information"
 
-#: header.php:22
+#: header.php:27
 msgid "Navigation principale"
 msgstr "Main navigation"
 
-#: header.php:37
-msgid "Votre recherche"
-msgstr "Your search"
-
-#: header.php:39
-msgid "Rechercher"
-msgstr "Search"
-
-#: index.php:8
+#: index.php:7
 msgid "Pourquoi et par qui ?"
 msgstr "Why and by who?"
 
-#: index.php:10
+#: index.php:13
 msgid "Lire la présentation"
 msgstr "Read the presentation"
 
-#: index.php:14
+#: index.php:17
 msgid "Nos dispositifs"
 msgstr "Our systems"
 
-#: index.php:17 template-Presentation.php:37
-msgid "Les dispositifs développés en partenariat"
-msgstr "Schemes developed in partnership"
+#: index.php:33 template-Dispositifs.php:20
+msgid "Il n'y a pas de projet à vous monter ..."
+msgstr "There are no projects to show you..."
 
-#: index.php:20
-msgid "Voir nos différents projets"
-msgstr "View our various projects"
-
-#: index.php:25
+#: index.php:39
 msgid "On parle de nous"
 msgstr "They talk about us"
 
-#: index.php:40
-msgid "Voir l'article"
-msgstr "View the article"
-
-#: index.php:43 template-Articles.php:21
+#: index.php:56 template-Articles.php:19
 msgid "Il n'y a pas d'articles à vous monter ..."
 msgstr "There are no articles to show you..."
 
-#: single-Articles.php:13
+#: search.php:5
+msgid "Résultats de votre recherche"
+msgstr "Your search"
+
+#: search.php:9 template-Dispositifs.php:16
+msgid "Voir le projet"
+msgstr "View  project"
+
+#: search.php:13
+msgid "Publié par"
+msgstr "Published by"
+
+#: search.php:25
+msgid "Il n'y a pas de résultats ..."
+msgstr "There are no results to show you..."
+
+#: single-Articles.php:15
 msgid "Détails"
 msgstr "Details"
 
-#: single-Articles.php:15
+#: single-Articles.php:17
 msgid "Date de l'article"
 msgstr "Date of the article"
 
-#: single-Articles.php:21
+#: single-Articles.php:23
 msgid "Source"
 msgstr "Source"
 
+#: single-Dispositifs.php:14
+msgid "Type de module"
+msgstr "Type of module"
+
 #: single-Dispositifs.php:18
+msgid "Type de mesures"
+msgstr "Type of measures"
+
+#: single-Dispositifs.php:27
+msgid "Résultats"
+msgstr "Results"
+
+#: single-Dispositifs.php:36
 msgid "Intéressé ? Contactez-nous!"
 msgstr "Interested? Please contact us!"
 
-#: single-Dispositifs.php:21
-msgid "Types"
-msgstr "Types"
-
-#: template-Articles.php:5
+#: template-Articles.php:6
 msgid "Les articles"
 msgstr "The articles"
 
-#: template-Articles.php:9
-msgid "Lire le récit de voyage \":title\""
-msgstr "Read"
+#: template-Articles.php:16
+msgid "Lire le résumé"
+msgstr "Read the summary"
 
 #: template-Dispositifs.php:5
 msgid "Les dispositifs"
 msgstr "Our systems"
 
-#: template-Dispositifs.php:17
-msgid "Voir le projet"
-msgstr "View  project"
-
-#: template-Dispositifs.php:21
-msgid "Il n'y a pas de projet à vous monter ..."
-msgstr "There are no projects to show you..."
-
-#: template-Presentation.php:9
+#: template-Presentation.php:8
 msgid "Dans quel but ?"
 msgstr "What for?"
 
-#: template-Presentation.php:30
-msgid "Voir les différents dispositifs"
-msgstr "See the various schemes"
+#: template-Presentation.php:44
+msgid "Comment"
+msgstr "How"
 
-#: template-Presentation.php:33
+#: template-Presentation.php:55
 msgid "Par qui ?"
 msgstr "By who?"
 
-#: template-Presentation.php:54
-msgid "Contact"
-msgstr "Contact"
+#: template-Presentation.php:90
+msgid "Contactez-les !"
+msgstr "Contact them!"
 
 #: template-contact.php:12
 msgid "Oups ! Il y a des erreurs dans le formulaire"
 msgstr "Oops! There are errors in the form"
 
 #: template-contact.php:15
+msgid "Qui souhaitez-vous joindre"
+msgstr "Who do you want to contact"
+
+#: template-contact.php:22 template-contact.php:23
 msgid "Votre prénom"
 msgstr "Your first name"
 
-#: template-contact.php:19
+#: template-contact.php:26
 msgid "Votre Nom"
 msgstr "Your name"
 
-#: template-contact.php:23
+#: template-contact.php:27
+msgid "Votre nom"
+msgstr "Your name"
+
+#: template-contact.php:30 template-contact.php:31
 msgid "Votre téléphone"
 msgstr "Your phone"
 
-#: template-contact.php:27
+#: template-contact.php:34
 msgid "Votre email"
 msgstr "Your email"
 
-#: template-contact.php:31
+#: template-contact.php:35
+msgid "Votre mail"
+msgstr "Your email"
+
+#: template-contact.php:38 template-contact.php:39
 msgid "Votre message"
 msgstr "Your message"
 
-#: template-contact.php:38
+#: template-contact.php:45
 msgid "conditions générales d'utilisation"
 msgstr "terms and conditions of use"
 
-#: template-contact.php:38
+#: template-contact.php:45
 msgid "J'accepte les :conditions"
 msgstr "I accept the :conditions"
 
-#: template-contact.php:45
+#: template-contact.php:52
 msgid "Envoyer"
 msgstr "Send"
 
-#: template-contact.php:49
+#: template-contact.php:56
 msgid "Merci ! Votre message a bien été envoyé."
 msgstr "Thank you! Your message has been sent."
+
+#~ msgid "Rechercher"
+#~ msgstr "Search"
+
+#~ msgid "Les dispositifs développés en partenariat"
+#~ msgstr "Schemes developed in partnership"
+
+#~ msgid "Voir nos différents projets"
+#~ msgstr "View our various projects"
+
+#~ msgid "Voir l'article"
+#~ msgstr "View the article"
+
+#~ msgid "Types"
+#~ msgstr "Types"
+
+#~ msgid "Lire \":title\""
+#~ msgstr "Read"
+
+#~ msgid "Voir les différents dispositifs"
+#~ msgstr "See the various schemes"
