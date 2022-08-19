@@ -38,7 +38,7 @@ input[id="searchsubmit"]{
     background-color: #0081A7;
     border: 2px #0081A7 solid;
     height: 40px;
-    width: 200px;
+    width: 180px;
     margin-top: 2.142857142857143em; /*60/28*/
     text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ input[id="searchsubmit"]:hover{
 input[id="s"]{
     border: 2px #0081A7 solid;
     height: 40px;
-    width: 200px;
+    width: 180px;
     margin-top: 2.142857142857143em; /*60/28*/
     margin-right: 1.071428571428571em; /*30/28*/
 }

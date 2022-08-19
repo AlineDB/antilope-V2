@@ -1,0 +1,91 @@
+/*Permanent*/
+
+.but__title{
+    margin-bottom: 1.7857142857em; /*50/28*/
+    margin-top: 2.142857142857143em; /*60/28*/;
+    text-align: center;
+}
+
+.but__fig{
+    background-color : hsla(194,100%,33%,0.4);
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-bottom-right-radius: 60px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-bottomright: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    text-align: center;
+    max-width: 350px;
+}
+
+.but__fig img{
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-bottom-right-radius: 60px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-bottomright: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 1em;
+    max-width: 300px;
+    height: auto;
+}
+
+.but__description, .but__conclusion{
+    line-height: 28px;
+}
+
+/*Ecran sous 767px*/
+@media screen and (max-width: 767px){
+    .but__fig{
+        margin: 2em auto;
+    }
+    .but__description, .but__conclusion{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+/*Ecran à partir de 768px jusqu'à 1500px*/
+@media screen and (min-width: 768px) and (max-width: 1499px){
+    .but__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        margin-bottom: 3.125em; /*50/16*/
+        padding: 2em;
+    }
+    .but__description{
+        grid-column: 2;
+        grid-row: 1/5;
+        max-width: 500px;
+    }
+    .but__conclusion{
+        grid-column: 2;
+        grid-row: 4;
+    }
+}
+
+/*Ecran à partir de 1500px (pc)*/
+@media screen and (min-width:1500px) {
+    .but__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        margin: 0 auto;
+        margin-bottom: 3.125em; /*50/16*/
+        padding: 2em;
+    }
+    .but__description{
+        grid-column: 2;
+        grid-row: 1/5;
+        max-width: 500px;
+    }
+    .but__conclusion{
+        grid-column: 2;
+        grid-row: 4;
+        max-width: 500px;
+    }
+    .but__fig{
+        justify-self: right;
+    }
+}
