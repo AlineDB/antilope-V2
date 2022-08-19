@@ -26,7 +26,6 @@
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
     padding: 1em;
-    max-width: 300px;
     height: auto;
 }
 
@@ -42,6 +41,9 @@
     .but__description, .but__conclusion{
         margin-left: 1em;
         margin-right: 1em;
+    }
+    .but__fig img{
+        max-width: 300px;
     }
 }
 
@@ -62,6 +64,14 @@
     .but__conclusion{
         grid-column: 2;
         grid-row: 4;
+    }
+    .but__fig{
+        justify-self: right;
+        min-width: 450px;
+    }
+    .but__fig img{
+        width: 350px;
+        height: auto;
     }
 }
 
@@ -87,5 +97,10 @@
     }
     .but__fig{
         justify-self: right;
+        min-width: 600px;
+    }
+    .but__fig img{
+        width: 500px;
+        height: auto;
     }
 }

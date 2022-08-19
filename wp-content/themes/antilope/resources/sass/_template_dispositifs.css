@@ -1,0 +1,72 @@
+/*Permanent*/
+
+.layout__dispositifsPage{
+    margin-top: 6.25em; /*100/16*/
+}
+
+.dispositifsPage__containers{
+    background-color : hsla(194,100%,33%,0.4);
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-bottom-right-radius: 60px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-bottomright: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.dispositifPage__title{
+    display: none;
+}
+
+.dispositifPage__card{
+    padding-bottom: 3.125em; /*50/16*/
+}
+
+.dispositifsPage__title{
+    margin-bottom: 1.7857142857em; /*50/28*/
+    text-align: center;
+}
+
+.dispositifPage__fig{
+    margin-bottom: 1.875em; /*30/16*/
+    margin-top: 1.875em; /*30/16*/
+    text-align: center;
+}
+
+.dispositifsPage__thumb{
+    width: 113px;
+    height: 152px;
+}
+
+.dispositifsPage__containers{
+    padding-bottom: 1.875em; /*30/16*/
+}
+
+
+/*Ecran sous 767px*/
+@media screen and (max-width: 767px){
+    .dispositifsPage__containers{
+        text-align: center;
+    }
+}
+
+/*Ecran à partir de 768px jusqu'à 1500px*/
+@media screen and (min-width: 768px) and (max-width: 1499px){
+    .dispositifsPage__containers{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+
+/*Ecran à partir de 1500px (pc)*/
+@media screen and (min-width:1500px) {
+    .dispositifsPage__containers {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+}

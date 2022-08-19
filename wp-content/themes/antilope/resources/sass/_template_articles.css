@@ -1,0 +1,20 @@
+
+
+.articlesPage__title{
+    margin-bottom: 1.7857142857em; /*50/28*/
+    padding-top: 2.142857142857143em; /*60/28*/
+    text-align: center;
+}
+
+.articlePage__card{
+    margin-bottom: 3.125em; /*50/16*/
+    padding-top: 6em; 
+    margin-left: 2em;
+}
+.articlesPage__container{
+    padding-bottom: 6em;
+}
+
+.articlesPage__link{
+    margin-left: 2em;
+}

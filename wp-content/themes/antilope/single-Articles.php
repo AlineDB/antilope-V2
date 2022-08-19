@@ -5,6 +5,10 @@
 
 	<main class="layout__singleArticle">
 		<h2 class="singleArticle__title"><?= get_the_title(); ?></h2>
+		<div class="singleArticle__share">
+            <p>Partager sur : </p>
+            <?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
+        </div>
 		<figure class="singleArticle__fig">
 			<?= get_the_post_thumbnail(null, 'thumbnail', ['class' => 'singleDispositif__thumb']); ?>
 		</figure>
@@ -21,7 +25,7 @@
                     </time></dd>
 				<?php if(get_field('source')):  ?>
                     <dt class="singleArticle__label"><?= __('Source', 'Aline-db-antilope'); ?></dt>
-                    <dd class="singleArticle"><?= get_field('source', false, false);  ?>
+                    <dd class="singleArticle__data"><?= get_field('source', false, false);  ?>
                     </dd>
 <!--                //récupérer le read more-->
 				<?php endif; ?>
