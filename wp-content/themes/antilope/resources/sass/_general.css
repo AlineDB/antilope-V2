@@ -11,7 +11,7 @@ html{
     display: none;
 }
 
-.dispositif__link, .about__link, .articlesPage__link, .dispositif__linkPage, .form__button, .who__link, .article__link, .singleDispositif__link, .contact__link{
+.dispositif__link, .post__link, .about__link, .articlesPage__link, .dispositif__linkPage, .form__button, .who__link, .article__link, .singleDispositif__link, .contact__link{
     border: 2px #007da3 solid;
     background-color: #007da3;
     padding: 25px 50px;
@@ -21,7 +21,7 @@ html{
     font-size: 1.125em; /*18/16*/
 }
 
-.dispositif__link:hover, .about__link:hover, .articlesPage__link:hover, .dispositif__linkPage:hover, .form__button:hover, .who__link:hover, .contact__link:hover, .article__link:hover, .singleDispositif__link:hover{
+.dispositif__link:hover, .post__link:hover, .about__link:hover, .articlesPage__link:hover, .dispositif__linkPage:hover, .form__button:hover, .who__link:hover, .contact__link:hover, .article__link:hover, .singleDispositif__link:hover{
     color: #007da3;
     background-color: #FFFFFF;
 }

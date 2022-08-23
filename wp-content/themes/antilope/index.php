@@ -39,15 +39,15 @@
         <h2 class="articles__title"><?= __('On parle de nous', 'Aline-db-antilope'); ?></h2>
         <div class="articles__container ">
 			<?php if(($articles = dw_get_articles(2))->have_posts()): while($articles->have_posts()): $articles->the_post(); ?>
-                <article class="article">
-                    <div class="article__card">
-                        <header class="article__head">
-                            <h3 class="article__title"><?= get_the_title(); ?></h3>
-                            <p class="article__date"><time class="article__time" datetime="<?= date('c', strtotime(get_field('date', false, false))); ?>">
+                <article class="articles">
+                    <div class="articles__card">
+                        <header class="articles__head">s
+                            <h3 class="article__subtitle"><?= get_the_title(); ?></h3>
+                            <p class="articles__date"><time class="article__time" datetime="<?= date('c', strtotime(get_field('date', false, false))); ?>">
 									<?= ucfirst(date_i18n('F, Y', strtotime(get_field('date', false, false)))); ?>
                                 </time></p>
                         </header>
-                        <div class="singleArticle__content">
+                        <div class="singleArticles__content">
                             <?=  the_content();  ?>
                         </div>
                     </div>

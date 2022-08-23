@@ -67,7 +67,7 @@
                 <p><span itemprop="name">Fabian Lenartz</span> : <span itemprop="worksfor" >Département Qualité de l'air</span></p>
                 <p><span itemprop="name">Guy Gerard</span> : <span itemprop="jobTitle">Responsable</span>, <span itemprop="worksfor" >Département Qualité de l'air</span></p>
             </div>
-            <a title="Aller sur le site de l'ISSEP" class="who__link" href="https://www.issep.be" itemprop="url">Site de l'<abbr title="Institut Scientifique du Service Public">ISSEP</abbr></a>
+            <a target="_blank" title="Aller sur le site de l'ISSEP" class="who__link" href="https://www.issep.be" itemprop="url">Site de l'<abbr title="Institut Scientifique du Service Public">ISSEP</abbr></a>
         </div>
         <div class="who__partner">
             <figure class="who__fig">
@@ -80,7 +80,7 @@
             <div class="partner__description">
                 <p><span itemprop="name">Valery Broun, Sylvain Gichaux et Christophe Brose</span> : <span itemprop="jobTitle">Ingénieurs</span>, <span itemprop="worksfor" > <abbr title="Haute Ecole de la Province de Liège">HEPL</abbr> (Service électronique & systèmes embarqué, Département Ingénieur)</span></p>
             </div>
-            <a title="Aller sur le site du service électronique de la HEPL" class="who__link" href="https://hepl-electro.wixsite.com/index" itemprop="url">Site du service électronique</a>
+            <a target="_blank" title="Aller sur le site du service électronique de la HEPL" class="who__link" href="https://hepl-electro.wixsite.com/index" itemprop="url">Site du service électronique</a>
         </div>
         <div class="who__partner">
             <figure class="who__fig">
@@ -88,7 +88,7 @@
                 <img itemprop="image" src="<?php echo get_template_directory_uri().'/img/Logo_HEPL.png'; ?>" alt="Logo de la HEPL">
             </figure>
             <div class="partner__description"></div>
-            <a title="Aller sur le site de la HEPL" class="who__link" href="https://www.hepl.be/fr/master-ingenieur-industriel" itemprop="url">Site de la <abbr title="Haute Ecole de la Province de Liège">HEPL</abbr> : master ingénieur</a>
+            <a target="_blank" title="Aller sur le site de la HEPL" class="who__link" href="https://www.hepl.be/fr/master-ingenieur-industriel" itemprop="url">Site de la <abbr title="Haute Ecole de la Province de Liège">HEPL</abbr> : master ingénieur</a>
         </div>
     </div>
     <div class="who__contact"><a title="Aller sur la page contact" class="who__link" href="<?= get_home_url(); ?>/contact"><?= __('Contactez-les !', 'Aline-db-antilope'); ?> </a></div>

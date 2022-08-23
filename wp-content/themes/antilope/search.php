@@ -1,12 +1,11 @@
 <?php get_header(); ?>
 
-<main class="layout">
+<main class="layout__results__search">
     <section class="results">
-        <h2><?= __('Résultats de votre recherche', 'Aline-db-antilope'); ?></h2>
+        <h2 class="results__title"><?= __('Résultats de votre recherche', 'Aline-db-antilope'); ?></h2>
         <div class="results__container">
             <?php if(have_posts()): while(have_posts()): the_post(); ?>
-                <article class="post">
-                    <a href="<?= get_the_permalink(); ?>" class="post__link"><?= __('Voir le projet', 'Aline-db-antilope'); ?> "<?= get_the_title(); ?>"</a>
+                <article class="results__post">
                     <div class="post__card">
                         <header class="post__head">
                             <h3 class="post__title"><?= get_the_title(); ?></h3>
@@ -18,6 +17,7 @@
                         <div class="post__excerpt">
                             <p><?= get_the_excerpt(); ?></p>
                         </div>
+                        <a href="<?= get_the_permalink(); ?>" class="post__link"><?= __('Voir', 'Aline-db-antilope'); ?> "<?= get_the_title(); ?>"</a>
                     </div>
                 </article>
             <?php endwhile; else: ?>

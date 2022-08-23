@@ -1,0 +1,40 @@
+
+.results{
+    margin: 2em 1em;
+}
+
+.results__title{
+    margin-bottom: 1.7857142857em; /*50/28*/
+}
+
+.results__container{
+    margin-bottom: 2em;
+}
+
+.results__post{
+    margin-top: 2em;
+}
+
+.post__card{
+    padding-bottom: 3em;
+}
+
+.post__head, .post__fig, .post__excerpt{
+    margin-bottom: 1em;
+}
+
+.post__excerpt{
+    padding-bottom: 3em;
+    line-height: 28px;
+}
+.post__meta{
+    font-style: italic;
+    margin-top: 0.5em;
+}
+
+/*Ecran sous 600px*/
+@media screen and (max-width: 600px) {
+    .post__link{
+        font-size: 0.7em;
+    }
+}
