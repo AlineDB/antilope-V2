@@ -37,6 +37,7 @@ register_post_type('Dispositifs', [
 		'name' => 'Dispositifs',
 		'singular_name' => 'Dispositif',
 	],
+	"hierarchical" => true,
 	'description' => 'Tous les dispositifs',
 	'public' => true,
 	'menu_position' => 5,
@@ -143,7 +144,27 @@ function dw_handle_submit_contact_form(){
 	// Instancier le controlleur du form
 	$form = new ContactFormController($_POST);
 }
+function dw_get_contact_field_value($field)
+{
+	if(! isset($_SESSION['contact_form_feedback'])) {
+		return '';
+	}
 
+	return $_SESSION['contact_form_feedback']['data'][$field] ?? '';
+}
+
+function dw_get_contact_field_error($field)
+{
+	if(! isset($_SESSION['contact_form_feedback'])) {
+		return '';
+	}
+
+	if(! ($_SESSION['contact_form_feedback']['errors'][$field] ?? null)) {
+		return '';
+	}
+
+	return '<p>Ce champ ne respecte pas : ' . $_SESSION['contact_form_feedback']['errors'][$field] . '</p>';
+}
 
 
 // Fonction qui charge les assets compilés et retourne leure chemin absolu

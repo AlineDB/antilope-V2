@@ -29,3 +29,41 @@ Voici le [le lien du nouveau site](https://breathe-antilope.aline-db.be)
 
 ## Tests
 
+### W3C HTML 
+Deux balises non fermées et une déclaration de form en trop. Deux erreurs qui concernent deux img externes sans alt que je ne peux rectifier. 
+Plus deux erreurs qui concernent deux déclarations de height auto au redimensionnement de deux images.
+
+Le heading-level outline est correct.
+
+### W3C CSS
+
+Aucune erreur trouvée, certification CSS niveau 3 + SVG. Il y a des avertissement mais cela concerne les déclarations webkit et moz.
+
+### W3C Link
+
+Pas d'erreur. Un avertissement est donné pour l'adresse du site de l'ISSEP (status 500).
+
+### W3C Internationalisation
+
+Languages FR par défaut et détecte bien les fichier fr-BE et en_BE. Le méta charset UTF-8.
+
+### CSS Stats
+
+Au nivea udes couleurs et typographies cela semble correct. Par contre pour le niveau de spécificité il y a 8 high level tout en restant raisonnable car le plus haut
+score est de 21 pour 3 d'entre eux.
+
+### Wave contrast and structure
+
+La même erreur concernant les deux alt manquant pour les photo externe est affichée. Un avertissement de contraste pour un lien et des avertissement de redondance pour d'autres.
+
+
+### GTMetrix performance
+
+Test effectué via un serveur du Canada, navigateur Chrome.
+Grade B, Performance 78% et 91% pour la structure. J'installe Imagify pour optimiser les images qui prennent pas mal de place et effectue le test à nouveau.
+Résultat: Grade B, performance à 79% et structure à 92%.
+
+### I am responsive
+
+Le titre des articles sur la page d'accueil ne se mettent pas correctement et l'alignement côte à côte sur un "petit" laptop est un peu décalé sur la droite.
+L'ancre pour revenir en haut de la page en mode mobile est au dessus du footer, pile sur le lien de la page contact. Il faudrait la remonter un peu en version mobile.

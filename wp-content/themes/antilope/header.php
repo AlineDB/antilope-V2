@@ -40,11 +40,9 @@
                 </li>
             </ul>
     </nav>
-    <form class="header__search search" role="search" method="get" action="<?= get_home_url(); ?>">
-        <div class="search__container">
-            <?= get_search_form() ;?>
-        </div>
-    </form>
+    <div class="header__search">
+        <?= get_search_form() ;?>
+    </div>
     <div id="FixedNav" class="cInvisible">
         <a  href="#" title="Retournez en haut">
             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#0081A7" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
@@ -52,4 +50,5 @@
             </svg>
         </a>
     </div>
+
 </header>

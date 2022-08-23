@@ -8,7 +8,7 @@ the_post(); ?>
 		<?= get_the_content(); ?>
     </div>
 	<?php if ( ! isset( $_SESSION['contact_form_feedback'] ) || ! $_SESSION['contact_form_feedback']['success'] ) : ?>
-        <form action="<?= get_home_url(); ?>/wp-admin/admin-post.php/" method="POST" class="contact__form" id="contact">
+        <form action="<?= get_home_url(); ?>/wp-admin/admin-post.php" method="POST" class="contact__form" id="contact">
 			<?php if ( isset( $_SESSION['contact_form_feedback'] ) ) : ?>
                 <p class="form__error"><?= __( 'Oups ! Il y a des erreurs dans le formulaire', 'Aline-db-antilope' ); ?></p>
 			<?php endif; ?>
@@ -55,7 +55,7 @@ the_post(); ?>
             </div>
             <div class="form__action">
 				<?php wp_nonce_field( 'nonce_submit_contact' ) ?>
-                <input type="hidden" name="action" value="submit_contact_form"/>
+                <input type="hidden" name="action" value="submit_contact_form" />
                 <button class="form__button" type="submit"><?= __( 'Envoyer', 'Aline-db-antilope' ); ?></button>
             </div>
         </form>
