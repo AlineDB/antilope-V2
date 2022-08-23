@@ -1,0 +1,17 @@
+
+.layout__politique{
+    margin-left: 2em;
+    margin-right: 2em;
+    line-height: 28px;
+}
+
+
+.contact__politique{
+    margin-bottom: 1.7857142857em; /*50/28*/
+    margin-top: 2.142857142857143em; /*60/28*/;
+}
+
+.politique__content h3{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}

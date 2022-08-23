@@ -41,7 +41,7 @@
 			<?php if(($articles = dw_get_articles(2))->have_posts()): while($articles->have_posts()): $articles->the_post(); ?>
                 <article class="articles">
                     <div class="articles__card">
-                        <header class="articles__head">s
+                        <header class="articles__head">
                             <h3 class="article__subtitle"><?= get_the_title(); ?></h3>
                             <p class="articles__date"><time class="article__time" datetime="<?= date('c', strtotime(get_field('date', false, false))); ?>">
 									<?= ucfirst(date_i18n('F, Y', strtotime(get_field('date', false, false)))); ?>
