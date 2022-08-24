@@ -6,64 +6,9 @@ the_post(); ?>
     <h2 class="contact__title"><?= get_the_title(); ?></h2>
     <div class="contact__content">
 		<?= get_the_content(); ?>
+		<?php echo do_shortcode("'[contact-form-7 id='168' title='Contc']"); ?>
     </div>
-	<?php if ( ! isset( $_SESSION['contact_form_feedback'] ) || ! $_SESSION['contact_form_feedback']['success'] ) : ?>
-        <form action="<?= get_home_url(); ?>/wp-admin/admin-post.php" method="POST" class="contact__form" id="contact">
-			<?php if ( isset( $_SESSION['contact_form_feedback'] ) ) : ?>
-                <p class="form__error"><?= __( 'Oups ! Il y a des erreurs dans le formulaire', 'Aline-db-antilope' ); ?></p>
-			<?php endif; ?>
-            <div class="form__field">
-                <label for="select" class="select__label"><?= __( 'Qui souhaitez-vous joindre', 'Aline-db-antilope' ); ?>
-                    ?</label>
-                <select name="select" id="select" class="form__select">
-                    <option>ISSEP</option>
-                    <option>HEPL</option>
-                    <option>Service électronique</option>
-                </select>
-            </div>
-            <div class="form__field">
-                <label for="firstname" class="form__label"><?= __( 'Votre prénom', 'Aline-db-antilope' ); ?> :</label>
-                <input type="text" name="firstname" id="firstname" class="form__input"
-                       placeholder="<?= __( 'Votre prénom', 'Aline-db-antilope' ); ?>">
-            </div>
-            <div class="form__field">
-                <label for="name" class="form__label"><?= __( 'Votre Nom', 'Aline-db-antilope' ); ?> :</label>
-                <input type="text" name="name" id="name" class="form__input"
-                       placeholder="<?= __( 'Votre nom', 'Aline-db-antilope' ); ?>">
-            </div>
-            <div class="form__field">
-                <label for="phone" class="form__label"><?= __( 'Votre téléphone', 'Aline-db-antilope' ); ?> :</label>
-                <input type="tel" name="phone" id="phone" class="form__input"
-                       placeholder="<?= __( 'Votre téléphone', 'Aline-db-antilope' ); ?>">
-            </div>
-            <div class="form__field">
-                <label for="mail" class="form__label"><?= __( 'Votre email', 'Aline-db-antilope' ); ?> :</label>
-                <input type="email" name="mail" id="mail" class="form__input"
-                       placeholder="<?= __( 'Votre mail', 'Aline-db-antilope' ); ?>">
-            </div>
-            <div class="form__field">
-                <label for="message" class="form__label"><?= __( 'Votre message', 'Aline-db-antilope' ); ?> :</label>
-                <textarea type="message" name="message" cols="50" rows="10" id="message" class="form__input"
-                          placeholder="<?= __( 'Votre message', 'Aline-db-antilope' ); ?>"></textarea>
-            </div>
-            <div class="form__field">
-                <label for="rules" class="form__checkbox">
-                    <input type="checkbox" name="rules" id="rules" value="1">
-                    <span><?= str_replace( ':conditions', '<a class="form__link" title="Voir la page des mentions légales" href="https://breathe-antilope.aline-db.be/politique-de-confidentialite/">' . __( 'conditions générales d\'utilisation', 'Aline-db-antilope' ) . '</a>', __( 'J\'accepte les :conditions', 'Aline-db-antilope' ) ); ?>
-                        .</span>
-                </label>
-            </div>
-            <div class="form__action">
-				<?php wp_nonce_field( 'nonce_submit_contact' ) ?>
-                <input type="hidden" name="action" value="submit_contact_form" />
-                <button class="form__button" type="submit"><?= __( 'Envoyer', 'Aline-db-antilope' ); ?></button>
-            </div>
-        </form>
-	<?php else : ?>
-        <p class="form__confirm" id="contact"><?= __( 'Merci ! Votre message a bien été envoyé.', 'Aline-db-antilope' ); ?>.</p>
-		<?php endif; ?>
 	<?php endwhile; endif; ?>
-
     <div class="contact__container">
         <div class="contact__partner" itemscope itemtype="https://schema.org/Organization">
             <figure class="contact__fig">
@@ -122,4 +67,4 @@ the_post(); ?>
     </div>
 </main>
 
-<?php get_footer(); unset( $_SESSION['contact_form_feedback']); ?>
+<?= get_footer(); ?>

@@ -85,6 +85,9 @@ input[id="s"]:focus{
     .header{
         padding: 1em;
     }
+    .cInvisible{
+        bottom: 6em;
+    }
 }
 
 /*Ecran à partir de 768px jusqu'à 1500px*/

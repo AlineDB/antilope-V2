@@ -36,7 +36,7 @@
             </div>
             <div class="singleDispositif__price">
                 <h3 class="singleDispositif__subtitle"><?= get_field('prix',false, false) ?></h3>
-                <a title="Aller à la page contact" href="<?php echo get_home_url(). '/contact/' ;?>" class="singleDispositif__link"><?= __('Intéressé ? Contactez-nous!', 'Aline-db-antilope'); ?></a>
+                <a title="Aller à la page contact" href="<?php echo get_home_url(). '/contact/' ;?>" class="singleDispositif__link"><?= __('Intéressé ? Contactez-les!', 'Aline-db-antilope'); ?></a>
             </div>
         </div>
     </main>
