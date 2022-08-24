@@ -62,6 +62,7 @@ La même erreur concernant les deux alt manquant pour les photo externe est affi
 Test effectué via un serveur du Canada, navigateur Chrome.
 Grade B, Performance 78% et 91% pour la structure. J'installe Imagify pour optimiser les images qui prennent pas mal de place et effectue le test à nouveau.
 Résultat: Grade B, performance à 79% et structure à 92%.
+Avec le changement de méthode de formulaire, le résultat est toujours au grade B mais les performances passent à 81% et structure 91%.
 
 ### I am responsive
 
