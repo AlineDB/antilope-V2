@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+.contact__container{
+    margin-top: 2em;
+}
+
 .contact__partner{
     background-color : hsla(194,100%,33%,0.4);
     -webkit-border-top-left-radius: 60px;
@@ -38,7 +42,10 @@
         max-width: 300px;
     }
     .contact__link{
-        font-size: 1em;
+        font-size: 0.8em;
+        text-align: center;
+        width: 200px;
+        line-height: 28px;
     }
 }
 

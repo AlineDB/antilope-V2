@@ -13,8 +13,8 @@ h2{
 
 .cInvisible{
     position: fixed;
-    bottom: 2em;
-    right: 2em;
+    bottom: 3em;
+    right: 3em;
 }
 
 .header{
@@ -86,7 +86,7 @@ input[id="s"]:focus{
         padding: 1em;
     }
     .cInvisible{
-        bottom: 6em;
+        bottom: 15.625em; /*410/16*/
     }
 }
 
