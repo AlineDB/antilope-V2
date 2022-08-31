@@ -45,6 +45,10 @@
     font-weight: bold;
 }
 
+.sficn img:hover{
+    opacity: 70%;
+}
+
 .singleDispositif__list{
     padding-left: 2.5em;
     line-height: 28px;

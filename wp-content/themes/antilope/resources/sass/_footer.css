@@ -17,11 +17,14 @@
     border-bottom: 2px #0081A7 solid;
     padding: 0.357142857142857em; /*10/28*/
     display: inline-block;
+    transition: 1s ease-out;
 }
+
 
 .footer__link a:hover{
     color: #0081A7;
     border-bottom: 2px #FFFFFF solid;
+    transform: scaleX(95%);
 }
 
 /*Ecran sous 767px*/

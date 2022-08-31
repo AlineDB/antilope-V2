@@ -19,9 +19,104 @@ html{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.125em; /*18/16*/
+    transition: 1s ease-out;
 }
 
 .dispositif__link:hover, .post__link:hover, .about__link:hover, .articlesPage__link:hover, .dispositif__linkPage:hover, .form__button:hover, .who__link:hover, .contact__link:hover, .article__link:hover, .singleDispositif__link:hover{
     color: #007da3;
     background-color: #FFFFFF;
+    transform: translate(115%);
+}
+
+/*Animations*/
+
+/*apparition au chargement de la page*/
+.reveal {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari et Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+        transform: translateX(50%);
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+        transform: translateX(50%);
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+        transform: translateX(50%);
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+        transform: translateX(50%);
+    }
+    to {
+        opacity:1;
+    }
+}
+
+/*Animation logos modules*/
+
+.dispositif__thumb{
+    animation: course 5s;
+}
+
+@keyframes course {
+    from {
+        opacity:0;
+        transform: translateX(800%) scaleX(-1);
+    }
+    to {
+        opacity:1;
+        transform: scaleX(1);
+    }
+}
+@-moz-keyframes course { /* sur Firefox */
+    from {
+        opacity:0;
+        transform: translateX(800%) scaleX(-1);
+    }
+    to {
+        opacity:1;
+        transform: scaleX(1);
+    }
+}
+@-webkit-keyframes course { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+        transform: translateX(800%) scaleX(-1);
+    }
+    to {
+        opacity:1;
+        transform: scaleX(1);
+    }
+}
+@-o-keyframes course { /* sur Opera */
+    from {
+        opacity:0;
+        transform: translateX(800%) scaleX(-1);
+    }
+    to {
+        opacity:1;
+        transform: scaleX(1);
+    }
 }

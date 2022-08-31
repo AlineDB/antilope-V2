@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <?php if ( have_posts() ): while ( have_posts() ):
 the_post(); ?>
-<main class="layout__contact">
+<main class="layout__contact reveal">
     <h2 class="contact__title"><?= get_the_title(); ?></h2>
     <div class="contact__content">
 		<?= get_the_content(); ?>
@@ -62,7 +62,7 @@ the_post(); ?>
             </figure>
             <a title="Aller sur le site de la HEPL" class="contact__link"
                href="https://www.hepl.be/fr/master-ingenieur-industriel" itemprop="url">Site de la <abbr
-                        title="Haute Ecole de la Province de Liège">HEPL</abbr> : master ingénieur</a>
+                        title="Haute Ecole de la Province de Liège">HEPL</abbr></a>
         </div>
     </div>
 </main>

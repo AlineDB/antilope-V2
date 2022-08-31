@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
 
-	<main class="layout__singleArticle">
+	<main class="layout__singleArticle reveal">
 		<h2 class="singleArticle__title"><?= get_the_title(); ?></h2>
 		<div class="singleArticle__share">
             <p>Partager sur : </p>

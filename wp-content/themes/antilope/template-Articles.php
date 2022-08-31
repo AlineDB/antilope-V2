@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <body>
 
-	<section class="layout__articlesPage">
+	<section class="layout__articlesPage reveal">
 		<h2 class="articlesPage__title"><?= __('Les articles', 'Aline-db-antilope'); ?></h2>
 		<div class="articlesPage__container">
 			<?php if(($articles = dw_get_articles(300))->have_posts()): while($articles->have_posts()): $articles->the_post(); ?>

@@ -1,7 +1,7 @@
 <?php /* Template Name: Dispositifs page template */ ?>
 <?php get_header(); ?>
 
-<section class="layout__dispositifsPage">
+<section class="layout__dispositifsPage reveal">
 	<h2 class="dispositifsPage__title"><?= __('Les dispositifs', 'Aline-db-antilope'); ?></h2>
 	<div class="dispositifsPage__containers">
 		<?php if(($dispositifs = dw_get_projects(300))->have_posts()): while($dispositifs->have_posts()): $dispositifs->the_post(); ?>

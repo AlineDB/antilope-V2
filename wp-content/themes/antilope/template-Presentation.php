@@ -3,7 +3,7 @@
 
 
 
-<main class="layout">
+<main class="layout reveal">
 <section class="layout__but">
     <h2 class="but__title"><?= __('Dans quel but ?', 'Aline-db-antilope'); ?></h2>
     <div class="but__container">

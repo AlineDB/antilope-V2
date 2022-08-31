@@ -1,7 +1,7 @@
 <?php /* Template Name: Politique page template */ ?>
 <?php get_header(); ?>
 
-<main class="layout__politique">
+<main class="layout__politique reveal">
     <h2 class="contact__politique"><?= get_the_title(); ?></h2>
     <div class="politique__content">
         <?=  get_the_content();  ?>

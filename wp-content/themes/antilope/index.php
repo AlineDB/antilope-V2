@@ -2,8 +2,8 @@
 <?php get_header(); ?>
 
 
-<main class="layout">
-    <section class="layout__about">
+<main class="layout reveal">
+    <section class="layout__about" >
         <h2 class="about__title"><?= __('Pourquoi et par qui ?', 'Aline-db-antilope'); ?></h2>
         <figure class="about__fig">
             <img class="about__img" src="<?php echo get_template_directory_uri() . '/img/Photo_dispositif_fixe_ext_ville.jpg'; ?>" alt="Photo dispositif de mesures fixe en ville" width="230" height="270">
@@ -13,9 +13,9 @@
             <a title="<?= __('Lire la présentation', 'Aline-db-antilope'); ?>" href="<?= get_home_url(); ?>/presentation/" class="about__link"><?= __('Lire la présentation', 'Aline-db-antilope'); ?></a>
         </div>
     </section>
-    <section class="layout__dispositifs">
+    <section class="layout__dispositifs ">
         <h2 class="dispositifs_title"><?= __('Nos dispositifs', 'Aline-db-antilope'); ?></h2>
-        <div class="dispositifs__container ">
+        <div class="dispositifs__container reveal">
             <?php if(($dispositifs = dw_get_projects(6))->have_posts()): while($dispositifs->have_posts()): $dispositifs->the_post(); ?>
                 <article class="dispositif">
                     <div class="dispositif__card">
@@ -37,7 +37,7 @@
 
     <section class="layout__articles">
         <h2 class="articles__title"><?= __('On parle de nous', 'Aline-db-antilope'); ?></h2>
-        <div class="articles__container ">
+        <div class="articles__container reveal">
 			<?php if(($articles = dw_get_articles(2))->have_posts()): while($articles->have_posts()): $articles->the_post(); ?>
                 <article class="articles">
                     <div class="articles__card">
