@@ -138,16 +138,19 @@ input[id="s"]:focus{
         color: #FFFFFF;
     }
 
+
+
     /*Menu mobile*/
     .header figure{
         display: inline-block;
+        padding-left: 50%;
     }
     .nav__container{
         display:none;
-        width: 100%;
+        width: 100vh;
         height: calc(100vh - 200px);
         position:absolute;
-        top: 230px;
+        top: 200px;
         padding-left: 1em;
         margin-left: -1em;
         background-color: #0081A7;
@@ -198,6 +201,10 @@ input[id="s"]:focus{
     }
     .burger__bar::after{
         transform: translateY(12px);
+    }
+    .header__nav{
+        position: relative;
+        top: -8em;
     }
 }
 

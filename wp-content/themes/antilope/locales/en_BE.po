@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-08-23 13:10+0200\n"
-"PO-Revision-Date: 2022-08-23 13:17+0200\n"
+"POT-Creation-Date: 2022-09-04 10:26+0200\n"
+"PO-Revision-Date: 2022-09-04 10:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -19,11 +19,11 @@ msgstr ""
 msgid "Pied de page"
 msgstr "Footer"
 
-#: footer.php:26
-msgid "Mentions légales"
-msgstr "Legal information"
+#: footer.php:31
+msgid "Site développé par"
+msgstr "Website developed by"
 
-#: header.php:27
+#: header.php:30
 msgid "Navigation principale"
 msgstr "Main navigation"
 
@@ -92,7 +92,9 @@ msgid "Résultats"
 msgstr "Results"
 
 #: single-Dispositifs.php:39
-msgid "Intéressé ? Contactez-nous!"
+#, fuzzy
+#| msgid "Intéressé ? Contactez-nous!"
+msgid "Intéressé ? Contactez-les!"
 msgstr "Interested? Please contact us!"
 
 #: template-Articles.php:6
@@ -115,6 +117,59 @@ msgstr "See the project"
 msgid "Dans quel but ?"
 msgstr "For what purpose?"
 
+#: template-Presentation.php:10
+#, php-format
+msgid ""
+"En 2020, nul ne peut ignorer les problèmes de pollution. Les dernières "
+"études publiées par l’OMS (Organisation Mondiale de la Santé) montrent que "
+"plus de 90% de la population mondiale est exposée à un air extérieur "
+"toxique. Cette pollution est même devenue une urgence de santé publique.  "
+"Une récente analyse montre même que 7 millions de décès prématurés "
+"surviennent chaque année à cause de la pollution de l'air. Ces statistiques "
+"en font une cause plus meurtrière que le tabagisme. L'impact des différents "
+"polluants sur de nombreuses maladies reste encore à établir, ce qui suggère "
+"que les dommages cardiaques et pulmonaires connus ne sont que \\\"la partie "
+"émergée de l'iceberg\\\".\r\n"
+"            C\\’est dans cette optique la que nous proposons un système low-"
+"cost de mesure des polluants atmosphériques tel que les oxydes d’azote "
+"(NO&NO2), ozone (O3) et les particules fines (PM 2.5).  Ce système de "
+"mesure, appelé ANTILOPE, est basé sur une approche « low cost » et se "
+"distingue donc des autres appareils du marché.\r\n"
+"            Différentes variantes de nos modules existent selon les modes de "
+"communication (enregistrements sur carte SD, communication Bluetooth ou "
+"rapatriement des données via GSM) et selon les types de capteurs utilisés "
+"(électrochimiques classiques ou à métal oxyde). Pour le moment, une "
+"quarantaine de modules a déjà été produit et sont en test à différents "
+"endroits de la Région Wallonne.\r\n"
+"            Nous proposons de montrer dans cette communication, les "
+"différentes variantes de nos modules ANTILOPE ainsi que de présenter les "
+"résultats des mesures faites en environnement contrôlé (matrice de gaz) "
+"ainsi que des mesures faites en environnement extérieur que nous "
+"confronterons avec les mesures réalisées par les appareils professionnels."
+msgstr ""
+"In 2020, no one can ignore the problems of pollution. The latest studies "
+"published by the WHO (World Health Organisation) show that over 90% of the "
+"world’s population is exposed to toxic outdoor air. This pollution has even "
+"become a public health emergency.  A recent analysis even shows that 7 "
+"million premature deaths occur each year due to air pollution. These "
+"statistics make it a bigger killer than smoking. The impact of different "
+"pollutants on many diseases has yet to be established, suggesting that the "
+"known heart and lung damage is only the « tip of the iceberg ».\n"
+"With this in mind, we propose a low-cost measurement system for air "
+"pollutants such as nitrogen oxides (NO&NO2), ozone (O3) and fine particles "
+"(PM 2.5).  This measurement system, called ANTILOPE, is based on a low-cost "
+"approach and is therefore different from other devices on the market."
+
+#: template-Presentation.php:39
+msgid ""
+"Ses chiffres sont interpellant ! Nos dispositifs permettent de mieux "
+"comprendre et mesurer la qualité de l'air dans nos villes peut importe quel "
+"moyen de locomotion on utilise !"
+msgstr ""
+"Its figures are striking! Our devices allow us to better understand and "
+"measure the air quality in our cities, no matter what means of transport we "
+"use!"
+
 #: template-Presentation.php:44
 msgid "Comment"
 msgstr "How"
@@ -123,58 +178,108 @@ msgstr "How"
 msgid "Par qui ?"
 msgstr "By who?"
 
+#: template-Presentation.php:59
+msgid ""
+"L'<abbr title=\"Institut Scientifique du Service Public\">ISSEP</abbr> est "
+"une unité d'Aministration Publique qui surveille l'environnement,\r\n"
+"                    prévient les risques et nuisances, effectue des "
+"recherches scientifique et Laboratoire de Référence pour la Wallonie."
+msgstr ""
+"The <abbr title=« Institut Scientifique du Service Public »>ISSEP</abbr> is "
+"a Public Administration unit that monitors the environment, prevents risks "
+"and nuisances, carries out scientific research and is the reference "
+"laboratory for Wallonia."
+
+#: template-Presentation.php:67 template-Presentation.php:68
+msgid "Département Qualité de l'air"
+msgstr "Air Quality Department"
+
+#: template-Presentation.php:68
+msgid "Responsable"
+msgstr "Manager"
+
+#: template-Presentation.php:70
+msgid "Site de l"
+msgstr "Website of"
+
+#: template-Presentation.php:74
+msgid ""
+"Le service électronique de la <abbr title=\"Haute Ecole de la Province de "
+"Liège\">HEPL</abbr>"
+msgstr ""
+"The electronic service of the <abbr title=« Haute Ecole de la Province de "
+"Liège »>HEPL</abbr>"
+
+#: template-Presentation.php:81
+msgid "Ingénieurs"
+msgstr "Engineers"
+
+#: template-Presentation.php:81
+msgid "(Service électronique & systèmes embarqué, Département Ingénieur)"
+msgstr "(Electronics & Embedded Systems Service, Engineering Department)"
+
+#: template-Presentation.php:83
+msgid "Site du service électronique"
+msgstr "Electronic service website"
+
+#: template-Presentation.php:87
+msgid ""
+"La <abbr title=\"Haute Ecole de la Province de Liège\">HEPL</abbr> et le "
+"cursus ingénierie"
+msgstr ""
+"The <abbr title=« Haute Ecole de la Province de Liège »>HEPL</abbr> and the "
+"engineering curriculum"
+
+#: template-Presentation.php:91
+msgid "Site de la"
+msgstr "Website of the"
+
+#: template-Presentation.php:91
+msgid "Master Ingénieurs"
+msgstr "Master Engineers"
+
 #: template-Presentation.php:94
 msgid "Contactez-les !"
 msgstr "Contact them!"
 
-#: template-contact.php:13
-msgid "Oups ! Il y a des erreurs dans le formulaire"
-msgstr "Oops! There are errors in the form"
+#~ msgid "Mentions légales"
+#~ msgstr "Legal information"
 
-#: template-contact.php:16
-msgid "Qui souhaitez-vous joindre"
-msgstr "Who do you want to contact"
+#~ msgid "Oups ! Il y a des erreurs dans le formulaire"
+#~ msgstr "Oops! There are errors in the form"
 
-#: template-contact.php:25 template-contact.php:27
-msgid "Votre prénom"
-msgstr "Your first name"
+#~ msgid "Qui souhaitez-vous joindre"
+#~ msgstr "Who do you want to contact"
 
-#: template-contact.php:30
-msgid "Votre Nom"
-msgstr "Your name"
+#~ msgid "Votre prénom"
+#~ msgstr "Your first name"
 
-#: template-contact.php:32
-msgid "Votre nom"
-msgstr "Your name"
+#~ msgid "Votre Nom"
+#~ msgstr "Your name"
 
-#: template-contact.php:35 template-contact.php:37
-msgid "Votre téléphone"
-msgstr "Your phone"
+#~ msgid "Votre nom"
+#~ msgstr "Your name"
 
-#: template-contact.php:40
-msgid "Votre email"
-msgstr "Your email"
+#~ msgid "Votre téléphone"
+#~ msgstr "Your phone"
 
-#: template-contact.php:42
-msgid "Votre mail"
-msgstr "Your email"
+#~ msgid "Votre email"
+#~ msgstr "Your email"
 
-#: template-contact.php:45 template-contact.php:47
-msgid "Votre message"
-msgstr "Your message"
+#~ msgid "Votre mail"
+#~ msgstr "Your email"
 
-#: template-contact.php:52
-msgid "conditions générales d'utilisation"
-msgstr "terms and conditions of use"
+#~ msgid "Votre message"
+#~ msgstr "Your message"
 
-#: template-contact.php:52
-msgid "J'accepte les :conditions"
-msgstr "I accept the :conditions"
+#~ msgid "conditions générales d'utilisation"
+#~ msgstr "terms and conditions of use"
 
-#: template-contact.php:59
-msgid "Envoyer"
-msgstr "Send"
+#~ msgid "J'accepte les :conditions"
+#~ msgstr "I accept the :conditions"
 
-#: template-contact.php:63
-msgid "Merci ! Votre message a bien été envoyé."
-msgstr "Thank you! Your message has been sent."
+#~ msgid "Envoyer"
+#~ msgstr "Send"
+
+#~ msgid "Merci ! Votre message a bien été envoyé."
+#~ msgstr "Thank you! Your message has been sent."

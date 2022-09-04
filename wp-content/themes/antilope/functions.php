@@ -87,6 +87,7 @@ function dw_get_articles($count = 20)
 
 //enregistrer les zones de menus
 register_nav_menu('primary','Navigation principale (haut de page)');
+register_nav_menu('footer','Navigation principale (pied de page)');
 
 
 //fonction pour récupérer les éléments d'un menu sous forme d'un tableau d'objet

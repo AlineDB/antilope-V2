@@ -22,14 +22,13 @@
             </figure>
         </div>
         <ul class="footer__menu">
-            <li class="footer__link">
-                <a title="Aller à la page des mentions légales" href="<?php echo get_home_url(). '/politique-de-confidentialite/'; ?>">  <?= __('Mentions légales', 'Aline-db-antilope'); ?></a>
-            </li>
+	        <?php foreach(dw_get_menu_items('footer') as $link): ?>
+            <li class="<?= $link->getBemClasses('footer__link'); ?>">
+                <a title="Allez à la page <?= $link->title ? ' title="' . $link->title . '"' : ''; ?>" href="<?= $link->url; ?>" <?= $link->title ? ' title="' . $link->title . '"' : ''; ?>><?= $link->label; ?>
+                </a>
+		        <?php endforeach; ?>
             <li class="footer__create">
-                <p>Site développé par Aline DE BARROS @2022</p>
-            </li>
-            <li class="footer__link">
-                <a title="Aller à la page contact" href="<?php echo get_home_url(). '/contact/' ;?>">Contact</a>
+                <p><?= __('Site développé par', 'Aline-db-antilope'); ?> Aline DE BARROS @2022</p>
             </li>
         </ul>
     </div>

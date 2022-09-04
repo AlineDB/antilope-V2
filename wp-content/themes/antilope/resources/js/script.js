@@ -1,15 +1,9 @@
 
 
-/*ancre haut de page*/
-document.addEventListener('DOMContentLoaded', function() {
-    window.onscroll = function(ev) {
-        document.getElementById("FixedNav").className = (window.pageYOffset < 100) ? "cVisible" : "cInvisible";
-    };
-});
-
 
 
 document.addEventListener('DOMContentLoaded', function (){
+    /*Burger menu*/
     const navbar = document.querySelector('.nav__container');
     const burger = document.querySelector('.header__burger');
     const closeNav = document.querySelector('.nav__close');
@@ -24,6 +18,11 @@ document.addEventListener('DOMContentLoaded', function (){
         burger.style.display = 'initial';
         closeNav.style.display = 'none';
     })
+    /*ancre haut de page*/
+    window.onscroll = function(ev) {
+        document.getElementById("FixedNav").className = (window.pageYOffset > 150) ? "cInvisible" : "cVisible";
+    };
+
 })
 
 
