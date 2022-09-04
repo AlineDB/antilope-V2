@@ -22,11 +22,11 @@ html{
     transition: 1s ease-out;
 }
 
-.dispositif__link:hover, .post__link:hover, .about__link:hover, .articlesPage__link:hover, .dispositif__linkPage:hover, .form__button:hover, .who__link:hover, .contact__link:hover, .article__link:hover, .singleDispositif__link:hover{
+.dispositif__link:hover, .post__link:hover, .who__link:hover, .about__link:hover, .articlesPage__link:hover, .dispositif__linkPage:hover, .form__button:hover, .contact__link:hover, .article__link:hover, .singleDispositif__link:hover{
     color: #007da3;
     background-color: #FFFFFF;
-    transform: translate(115%);
 }
+
 
 /*Animations*/
 

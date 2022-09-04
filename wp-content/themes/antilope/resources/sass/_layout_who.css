@@ -50,14 +50,23 @@
     align-items: start;
 }
 
+.who__container{
+    margin-bottom: 2em;
+}
+
 @media screen and (min-width: 885px){
     .who__container{
         display: flex;
-        margin: 0 auto;
     }
     .who__partner{
         width: 600px;
         margin-left: 2em;
         margin-right: 2em;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    .who__container{
+        margin-left: 10%;
     }
 }
