@@ -61,6 +61,7 @@
 
 .singleDispositif__results .singleDispositif__p, .singleDispositif__results img{
     margin: 1.5em 1em;
+    padding: 1em;
 }
 
 
@@ -83,6 +84,7 @@
     }
     .singleDispositif__link{
         font-size: 0.8em;
+        display: block;
     }
     .singleDispositif__fig{
         text-align: center;
@@ -92,6 +94,10 @@
 @media screen and (min-width: 500px){
     .singleDispositif__image img{
         width: 400px;
+    }
+    .singleDispositif__link{
+        display: block;
+        text-align: center;
     }
 }
 

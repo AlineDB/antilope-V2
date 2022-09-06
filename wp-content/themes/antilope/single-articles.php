@@ -6,7 +6,7 @@
 	<main class="layout__singleArticle reveal">
 		<h2 class="singleArticle__title"><?= get_the_title(); ?></h2>
 		<div class="singleArticle__share">
-            <p>Partager sur : </p>
+            <p><?= __('Partager sur', 'Aline-db-antilope'); ?> : </p>
             <?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
         </div>
 		<figure class="singleArticle__fig">

@@ -25,8 +25,7 @@ the_post(); ?>
                     <a href="mailto:direction@issep.be" itemprop="email">direction@issep.be</a>
                 </figcaption>
             </figure>
-            <a title="Aller sur le site de l'ISSEP" class="contact__link" href="https://www.issep.be" itemprop="url">Site
-                de l'<abbr title="Institut Scientifique du Service Public">ISSEP</abbr></a>
+            <a title="Aller sur le site de l'ISSEP" class="contact__link" href="https://www.issep.be" itemprop="url"><?= __('Site de l\'', 'Aline-db-antilope'); ?> <abbr title="Institut Scientifique du Service Public">ISSEP</abbr></a>
         </div>
         <div class="contact__partner" itemscope itemtype="https://schema.org/Organization">
             <figure class="contact__fig">
@@ -45,7 +44,7 @@ the_post(); ?>
                 </figcaption>
             </figure>
             <a title="Aller sur le site du service électronique de la HEPL" class="contact__link"
-               href="https://hepl-electro.wixsite.com/index" itemprop="url">Site du service électronique</a>
+               href="https://hepl-electro.wixsite.com/index" itemprop="url"><?= __('Site du service électronique', 'Aline-db-antilope'); ?></a>
         </div>
         <div class="contact__partner" itemscope itemtype="https://schema.org/Organization">
             <figure class="contact__fig">
@@ -61,7 +60,7 @@ the_post(); ?>
                 </figcaption>
             </figure>
             <a title="Aller sur le site de la HEPL" class="contact__link"
-               href="https://www.hepl.be/fr/master-ingenieur-industriel" itemprop="url">Site de la <abbr
+               href="https://www.hepl.be/fr/master-ingenieur-industriel" itemprop="url"><?= __('Site de la', 'Aline-db-antilope'); ?> <abbr
                         title="Haute Ecole de la Province de Liège">HEPL</abbr></a>
         </div>
     </div>

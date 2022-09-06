@@ -22,6 +22,8 @@
 }
 
 
+
+
 /*Ecran sous 767px*/
 @media screen and (max-width: 767px){
     .layout__about{
@@ -40,6 +42,9 @@
     .about__description{
         margin-bottom: 4.0625em; /*65/16*/
         line-height: 28px;
+    }
+    .about__link{
+        display:block;
     }
 }
 

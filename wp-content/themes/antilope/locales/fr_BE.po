@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-09-04 10:25+0200\n"
-"PO-Revision-Date: 2022-09-04 10:26+0200\n"
+"POT-Creation-Date: 2022-09-06 21:52+0200\n"
+"PO-Revision-Date: 2022-09-06 21:52+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_BE\n"
@@ -23,13 +23,27 @@ msgstr "Pied de page"
 msgid "Site développé par"
 msgstr "Site développé par"
 
-#: header.php:30
+#: header.php:31
 msgid "Navigation principale"
 msgstr "Navigation principale"
 
 #: index.php:7
 msgid "Pourquoi et par qui ?"
 msgstr "Pourquoi et par qui ?"
+
+#: index.php:12
+msgid ""
+"Antilope est un dispositif de mesure créé à la demande de l'<abbr title="
+"\"Institut Scientifique du Service Public\">ISSEP</abbr> par des étudiants "
+"ingénieurs de la <abbr title=\"Haute Ecole de la Province de Liège\">HEPL</"
+"abbr> et son service électronique. Leur but étant de mesurer la qualité de "
+"l'air à l'aide de différents modules en Wallonie."
+msgstr ""
+"Antilope est un dispositif de mesure créé à la demande de l’<abbr "
+"title=« Institut Scientifique du Service Public »>ISSEP</abbr> par des "
+"étudiants ingénieurs de la <abbr title=« Haute Ecole de la Province de "
+"Liège »>HEPL</abbr> et son service électronique. Leur but étant de mesurer "
+"la qualité de l’air à l’aide de différents modules en Wallonie."
 
 #: index.php:13
 msgid "Lire la présentation"
@@ -67,34 +81,36 @@ msgstr "Voir"
 msgid "Il n'y a pas de résultats ..."
 msgstr "Il n’y a pas de résultats …"
 
-#: single-Articles.php:19
+#: single-articles.php:9 single-dispositifs.php:12
+msgid "Partager sur"
+msgstr "Partager sur"
+
+#: single-articles.php:19
 msgid "Détails"
 msgstr "Détails"
 
-#: single-Articles.php:21
+#: single-articles.php:21
 msgid "Date de l'article"
 msgstr "Date de l’article"
 
-#: single-Articles.php:27
+#: single-articles.php:27
 msgid "Source"
 msgstr "Source"
 
-#: single-Dispositifs.php:17
+#: single-dispositifs.php:17
 msgid "Type de module"
 msgstr "Type de module"
 
-#: single-Dispositifs.php:21
+#: single-dispositifs.php:21
 msgid "Type de mesures"
 msgstr "Type de mesures"
 
-#: single-Dispositifs.php:30
+#: single-dispositifs.php:30
 msgid "Résultats"
 msgstr "Résultats"
 
-#: single-Dispositifs.php:39
-#, fuzzy
-#| msgid "Intéressé ? Contactez-nous!"
-msgid "Intéressé ? Contactez-les!"
+#: single-dispositifs.php:39
+msgid "Intéressé ? Contactez-nous!"
 msgstr "Intéressé ? Contactez-nous!"
 
 #: template-Articles.php:6
@@ -221,7 +237,7 @@ msgstr "Ingénieurs"
 msgid "(Service électronique & systèmes embarqué, Département Ingénieur)"
 msgstr "(Service électronique & systèmes embarqué, Département Ingénieur)"
 
-#: template-Presentation.php:83
+#: template-Presentation.php:83 template-contact.php:47
 msgid "Site du service électronique"
 msgstr "Site du service électronique"
 
@@ -233,21 +249,21 @@ msgstr ""
 "La <abbr title=« Haute Ecole de la Province de Liège »>HEPL</abbr> et le "
 "cursus ingénierie"
 
-#: template-Presentation.php:91
-#, fuzzy
-#| msgid "Pied de page"
+#: template-Presentation.php:91 template-contact.php:63
 msgid "Site de la"
-msgstr "Pied de page"
+msgstr "Site de la"
 
 #: template-Presentation.php:91
-#, fuzzy
-#| msgid "Ingénieurs"
 msgid "Master Ingénieurs"
-msgstr "Ingénieurs"
+msgstr "Master Ingénieurs"
 
 #: template-Presentation.php:94
 msgid "Contactez-les !"
-msgstr "Contactez-les !"
+msgstr "Contactez-nous!"
+
+#: template-contact.php:28
+msgid "Site de l'"
+msgstr "Site de l’"
 
 #~ msgid "Mentions légales"
 #~ msgstr "Mentions légales"

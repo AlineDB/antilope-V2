@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-09-04 10:26+0200\n"
-"PO-Revision-Date: 2022-09-04 10:27+0200\n"
+"POT-Creation-Date: 2022-09-05 14:44+0200\n"
+"PO-Revision-Date: 2022-09-06 16:06+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -30,6 +30,20 @@ msgstr "Main navigation"
 #: index.php:7
 msgid "Pourquoi et par qui ?"
 msgstr "Why and by whom?"
+
+#: index.php:12
+msgid ""
+"Antilope est un dispositif de mesure créé à la demande de l'<abbr title="
+"\"Institut Scientifique du Service Public\">ISSEP</abbr> par des étudiants "
+"ingénieurs de la <abbr title=\"Haute Ecole de la Province de Liège\">HEPL</"
+"abbr> et son service électronique. Leur but étant de mesurer la qualité de "
+"l'air à l'aide de différents modules en Wallonie."
+msgstr ""
+"Antilope is a measuring device created at the request of the <abbr "
+"title=« Institut Scientifique du Service Public »>ISSEP</abbr> by "
+"engineering students from the <abbr title=« Haute Ecole de la Province de "
+"Liège »>HEPL</abbr> and its electronics department. Their goal is to measure "
+"air quality with different modules in Wallonia."
 
 #: index.php:13
 msgid "Lire la présentation"
@@ -67,6 +81,10 @@ msgstr "See"
 msgid "Il n'y a pas de résultats ..."
 msgstr "There are no results …"
 
+#: single-Articles.php:9
+msgid "Partager sur"
+msgstr "Share on"
+
 #: single-Articles.php:19
 msgid "Détails"
 msgstr "Details"
@@ -92,10 +110,8 @@ msgid "Résultats"
 msgstr "Results"
 
 #: single-Dispositifs.php:39
-#, fuzzy
-#| msgid "Intéressé ? Contactez-nous!"
-msgid "Intéressé ? Contactez-les!"
-msgstr "Interested? Please contact us!"
+msgid "Intéressé ? Contactez-nous!"
+msgstr "Interested ? Please contact us!"
 
 #: template-Articles.php:6
 msgid "Les articles"
@@ -218,7 +234,7 @@ msgstr "Engineers"
 msgid "(Service électronique & systèmes embarqué, Département Ingénieur)"
 msgstr "(Electronics & Embedded Systems Service, Engineering Department)"
 
-#: template-Presentation.php:83
+#: template-Presentation.php:83 template-contact.php:47
 msgid "Site du service électronique"
 msgstr "Electronic service website"
 
@@ -230,7 +246,7 @@ msgstr ""
 "The <abbr title=« Haute Ecole de la Province de Liège »>HEPL</abbr> and the "
 "engineering curriculum"
 
-#: template-Presentation.php:91
+#: template-Presentation.php:91 template-contact.php:63
 msgid "Site de la"
 msgstr "Website of the"
 
@@ -240,7 +256,11 @@ msgstr "Master Engineers"
 
 #: template-Presentation.php:94
 msgid "Contactez-les !"
-msgstr "Contact them!"
+msgstr "Contact us!"
+
+#: template-contact.php:28
+msgid "Site de l'"
+msgstr "Website of "
 
 #~ msgid "Mentions légales"
 #~ msgstr "Legal information"

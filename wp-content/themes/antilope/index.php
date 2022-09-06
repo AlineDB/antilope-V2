@@ -9,7 +9,7 @@
             <img class="about__img" src="<?php echo get_template_directory_uri() . '/img/Photo_dispositif_fixe_ext_ville.jpg'; ?>" alt="Photo dispositif de mesures fixe en ville" width="230" height="270">
         </figure>
         <div class="about__container">
-            <p class="about__description">Antilope est un dispositif de mesure créé à la demande de l'<abbr title="Institut Scientifique du Service Public">ISSEP</abbr> par des étudiants ingénieurs de la <abbr title="Haute Ecole de la Province de Liège">HEPL</abbr> et son service électronique. Leur but étant de mesurer la qualité de l'air à l'aide de différents modules en Wallonie.</p>
+            <p class="about__description"><?= __('Antilope est un dispositif de mesure créé à la demande de l\'<abbr title="Institut Scientifique du Service Public">ISSEP</abbr> par des étudiants ingénieurs de la <abbr title="Haute Ecole de la Province de Liège">HEPL</abbr> et son service électronique. Leur but étant de mesurer la qualité de l\'air à l\'aide de différents modules en Wallonie.', 'Aline-db-antilope'); ?></p>
             <a title="<?= __('Lire la présentation', 'Aline-db-antilope'); ?>" href="<?= get_home_url(); ?>/presentation/" class="about__link"><?= __('Lire la présentation', 'Aline-db-antilope'); ?></a>
         </div>
     </section>
