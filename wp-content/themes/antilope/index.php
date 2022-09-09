@@ -47,9 +47,12 @@
 									<?= ucfirst(date_i18n('F, Y', strtotime(get_field('date', false, false)))); ?>
                                 </time></p>
                         </header>
-                        <div class="singleArticles__content">
-                            <?=  the_content();  ?>
-                        </div>
+                        <figure class="articles__fig">
+                            <img alt="Image de l'article" src="<?php the_field('image'); ?>" />
+                        </figure>
+                    </div>
+                    <div class="articles__link">
+                        <a class="article__link" href="<?= get_the_permalink(); ?>"><?= __('Lire le résumé', 'Aline-db-antilope'); ?></a>
                     </div>
                 </article>
 			<?php endwhile; else: ?>

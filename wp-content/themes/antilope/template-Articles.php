@@ -9,8 +9,11 @@
 				<article class="articlePage__article">
 					<div class="articlePage__card">
                         <h3 class="articlePage__title"><?= get_the_title(); ?></h3>
+                        <p class="articlePage__date"><time class="article__time" datetime="<?= date('c', strtotime(get_field('date', false, false))); ?>">
+								<?= ucfirst(date_i18n('F, Y', strtotime(get_field('date', false, false)))); ?>
+                            </time></p>
 						<figure class="articlePage__fig">
-							<?= get_the_post_thumbnail(null, 'medium_large', ['class' => 'dispositifs__thumb']); ?>
+                            <img alt="Image de l'article" src="<?php the_field('image'); ?>" />
 						</figure>
 					</div>
                     <a title="Voir le résumé de l'article" href="<?= get_the_permalink(); ?>" class="articlesPage__link"><?=  __('Lire le résumé', 'Aline-db-antilope'); ?></a>

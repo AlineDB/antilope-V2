@@ -69,7 +69,7 @@ function dw_get_projects($count = 20)
 	return $dispositifs;
 }
 
-// Récupérer les dispositifs via une requête Wordpress
+// Récupérer les articles via une requête Wordpress
 function dw_get_articles($count = 20)
 {
 	// 1. on instancie l'objet WP_Query

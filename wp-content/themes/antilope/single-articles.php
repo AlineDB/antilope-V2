@@ -10,11 +10,14 @@
             <?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
         </div>
 		<figure class="singleArticle__fig">
-			<?= get_the_post_thumbnail(null, 'thumbnail', ['class' => 'singleDispositif__thumb']); ?>
+            <img alt="Image de l'article" src="<?php the_field('image'); ?>" />
 		</figure>
 		<div class="singleArticle__content">
-            </a><?=  the_content();  ?>
+            <p><?php the_field('resume'); ?></p>
 		</div>
+        <div class="singleArticle__link">
+            <a class="article__link" target="_blank" href="<?php the_field('lien'); ?>"><?= __('Lire l\'article', 'Aline-db-antilope'); ?></a>
+        </div>
         <aside class="singleArticle__details">
             <h3 class="singleArticle__subtitle"><?= __('Détails', 'Aline-db-antilope'); ?></h3>
             <dl class="singleArticle__def">

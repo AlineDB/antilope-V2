@@ -18,3 +18,30 @@
 .articlesPage__link{
     margin-left: 2em;
 }
+
+.articlePage__fig{
+    background-color : hsla(194,100%,33%,0.4);
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-bottom-right-radius: 60px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-bottomright: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: inline-block;
+    min-height: 190px;
+    min-width: 300px;
+}
+
+.articlePage__fig img{
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-bottom-right-radius: 60px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-bottomright: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 1em;
+}
+
+.articlePage__title, .articlePage__date{
+    margin-bottom: 1em;
+}
