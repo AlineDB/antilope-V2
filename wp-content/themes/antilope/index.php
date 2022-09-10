@@ -48,7 +48,7 @@
                                 </time></p>
                         </header>
                         <figure class="articles__fig">
-                            <img alt="Image de l'article" src="<?php the_field('image'); ?>" />
+                            <img alt="Image de l'article" src="<?php the_field('image'); ?>"  />
                         </figure>
                     </div>
                     <div class="articles__link">

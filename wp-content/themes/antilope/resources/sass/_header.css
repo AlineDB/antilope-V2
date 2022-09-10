@@ -96,9 +96,7 @@ input[id="s"]{
 }
 
 input[id="s"]:focus{
-    background-color:  #0081A7;
-    opacity: 40%;
-    color:#FFFFFF;
+    background-color:  hsla(194,100%,33%,0.26);
 }
 
 

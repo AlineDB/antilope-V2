@@ -6,7 +6,7 @@ the_post(); ?>
     <h2 class="contact__title"><?= get_the_title(); ?></h2>
     <div class="contact__content">
 		<?= get_the_content(); ?>
-		<?php echo do_shortcode("[cf7form cf7key='sans-titre']"); ?>
+		<?php echo do_shortcode("[cf7form cf7key='contactez-nous']"); ?>
     </div>
 	<?php endwhile; endif; ?>
     <div class="contact__container">

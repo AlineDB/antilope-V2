@@ -77,13 +77,13 @@ html{
 /*Animation logos modules*/
 
 .dispositif__thumb{
-    animation: course 5s;
+    animation: course 2s;
 }
 
 @keyframes course {
     from {
         opacity:0;
-        transform: translateX(800%) scaleX(-1);
+        transform: translateX(200%) scaleX(-1);
     }
     to {
         opacity:1;
@@ -93,7 +93,7 @@ html{
 @-moz-keyframes course { /* sur Firefox */
     from {
         opacity:0;
-        transform: translateX(800%) scaleX(-1);
+        transform: translateX(200%) scaleX(-1);
     }
     to {
         opacity:1;
@@ -103,7 +103,7 @@ html{
 @-webkit-keyframes course { /* sur Safari et Chrome */
     from {
         opacity:0;
-        transform: translateX(800%) scaleX(-1);
+        transform: translateX(200%) scaleX(-1);
     }
     to {
         opacity:1;
@@ -113,7 +113,7 @@ html{
 @-o-keyframes course { /* sur Opera */
     from {
         opacity:0;
-        transform: translateX(800%) scaleX(-1);
+        transform: translateX(200%) scaleX(-1);
     }
     to {
         opacity:1;

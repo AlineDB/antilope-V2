@@ -3,6 +3,7 @@
 
 .contact__content{
     padding-bottom: 2em;
+    margin-right:10%;
 }
 
 .wpcf7 input, .wpcf7-select{
@@ -24,11 +25,13 @@
     line-height: 28px;
 }
 
+.columns label{
+    margin-left: 1.5em;
+}
+
 
 .wpcf7 input:focus{
-    background-color:  #0081A7;
-    opacity: 20%;
-    color:#FFFFFF;
+    background-color:  hsla(194,100%,33%,0.26);
 }
 
 .wpcf7 form:invalid{
@@ -66,10 +69,6 @@
     padding: 0.357142857142857em;
 }
 
-.wpcf7-form p:nth-child(8){
-    margin-left: 1.5em;
-}
-
 /*Ecran sous 767px*/
 @media screen and (max-width: 767px){
     .wpcf7 input, .wpcf7-select, .wpcf7 textarea{
@@ -84,11 +83,12 @@
 
 /*Ecran à partir de 1400px (pc)*/
 @media screen and (min-width:1400px) {
-    .wpcf7-form{
+    .one-half{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
-        justify-items: center;
+        justify-items: end;
+        align-items: end;
     }
     .wpcf7-form p:first-of-type{
         grid-column: 1/3;
@@ -96,11 +96,10 @@
         text-align: center;
         align-items: baseline;
     }
-    .label__span{
-        display: flex;
-        margin-left: 30%;
+
+    .field{
+        display:flex;
+        align-items: baseline;
     }
-    .wpcf7-form p:nth-child(9){
-        margin-left: 80%;
-    }
+
 }
