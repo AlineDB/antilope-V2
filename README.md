@@ -71,12 +71,12 @@ L'ancre pour revenir en haut de la page en mode mobile est au dessus du footer, 
 ## Retour jury septembre 2022
 
 L'usage d'un plugin pour prévisualiser les articles est plus contraignant qu'autre chose, les refaire à la main et masquer la page article qui est de base
-dans WP car je créé un custom post-type pour cela. Cela permettra de mieux respecter le design choisis à la base.
+dans WP car je créé un custom post-type pour cela. Cela permettra de mieux respecter le design choisis à la base. (Fait le 09/09 mais toutes les img n'apparaissent pas).
 
-Ajouter les labels dans le FORM et trouver les réglages pour les vérifications (champs vide, mail, tél, ...).
+Ajouter les labels dans le FORM (fait le 10/09) et trouver les réglages pour les vérifications (champs vide, mail, tél, ...).
 
-Animation revoir le timing. 
+Animation revoir le timing. (Fait le 10/09)
 
-Contraste à vérifier (surtout le champ search où il manquait le color white au focus).
+Contraste à vérifier (surtout le champ search où il manquait le color white au focus). (Fait le 10/09)
 
 Quelques détails css.
